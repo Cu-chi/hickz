@@ -1,0 +1,6 @@
+name: hickz
+version: '${version}'
+main: com.cuchi.hickz.Hickz
+api-version: '1.20'
+authors: [Cu-chi]
+description: Hickz core plugin
