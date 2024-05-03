@@ -1,0 +1,16 @@
+core:
+  delay: 10 # seconds between each give
+  same: false # same block for all players (false may cause performance issues)
+  blacklisted-blocks: [
+    "minecraft:air",
+    "minecraft:bedrock",
+    "minecraft:spawner",
+    "minecraft:barrier",
+    "minecraft:nether_portal",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:command_block_minecart",
+    "minecraft:structure_void",
+    "minecraft:debug_stick"
+  ]
