@@ -2,6 +2,7 @@ package com.cuchi.hickz;
 
 import com.destroystokyo.paper.profile.PlayerProfile;
 import com.destroystokyo.paper.profile.ProfileProperty;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Skull;
 import org.bukkit.inventory.ItemStack;
@@ -28,7 +29,7 @@ public class Skulls {
     private ItemStack createCustomSkull(String base64Str) {
         ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
 
-        PlayerProfile profile = Hickz.getInstance().getServer().createProfile(UUID.randomUUID());
+        PlayerProfile profile = Bukkit.createProfile(UUID.randomUUID());
         profile.setProperty(new ProfileProperty("textures", base64Str));
 
         SkullMeta itemMeta = (SkullMeta) itemStack.getItemMeta();
