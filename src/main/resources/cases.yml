@@ -1,0 +1,32 @@
+cases: [
+  "default"
+]
+
+case-default:
+  color: ff0000
+  items: [
+    "DIAMOND_SWORD",
+    "DIAMOND",
+    "CAKE"
+  ]
+  DIAMOND_SWORD:
+    itemName: ""
+    itemDesc: []
+    amount: 1
+    chance: 0.2
+    enchants: ["knockback","sharpness"]
+    knockback: 4
+    sharpness: 10
+  DIAMOND:
+    itemName: ""
+    itemDesc: []
+    amount: 2
+    chance: 0.2
+  CAKE:
+    itemName: Gateau teh les fous
+    itemDesc: [
+      "ligne 1",
+      "ligne 2"
+    ]
+    amount: 1
+    chance: 0.6

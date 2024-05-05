@@ -1,16 +1,19 @@
 core:
   delay: 10 # seconds between each give
-  same: false # same block for all players (false may cause performance issues)
+  same: false # same block for all players
+  case-duration: 3 # time to get the reward of a case
   blacklisted-blocks: [
-    "minecraft:air",
-    "minecraft:bedrock",
-    "minecraft:spawner",
-    "minecraft:barrier",
-    "minecraft:nether_portal",
-    "minecraft:command_block",
-    "minecraft:chain_command_block",
-    "minecraft:repeating_command_block",
-    "minecraft:command_block_minecart",
-    "minecraft:structure_void",
-    "minecraft:debug_stick"
+    "AIR",
+    "CAVE_AIR",
+    "VOID_AIR",
+    "BEDROCK",
+    "SPAWNER",
+    "BARRIER",
+    "NETHER_PORTAL",
+    "COMMAND_BLOCK",
+    "CHAIN_COMMAND_BLOCK",
+    "REPEATING_COMMAND_BLOCK",
+    "COMMAND_BLOCK_MINECART",
+    "STRUCTURE_VOID",
+    "DEBUG_STICK"
   ]
