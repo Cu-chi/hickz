@@ -1,5 +1,6 @@
-package com.cuchi.hickz;
+package com.cuchi.hickz.cases;
 
+import com.cuchi.hickz.Hickz;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;

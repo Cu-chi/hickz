@@ -1,4 +1,4 @@
-package com.cuchi.hickz;
+package com.cuchi.hickz.misc;
 
 import net.kyori.adventure.text.Component;
 import org.bukkit.Material;

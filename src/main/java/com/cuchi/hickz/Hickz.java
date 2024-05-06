@@ -1,5 +1,7 @@
 package com.cuchi.hickz;
 
+import com.cuchi.hickz.cases.Case;
+import com.cuchi.hickz.cases.CaseLoader;
 import net.kyori.adventure.key.Key;
 import net.kyori.adventure.translation.GlobalTranslator;
 import net.kyori.adventure.translation.TranslationRegistry;

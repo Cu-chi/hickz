@@ -1,5 +1,6 @@
-package com.cuchi.hickz;
+package com.cuchi.hickz.cases;
 
+import com.cuchi.hickz.Hickz;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextColor;
 import org.bukkit.Material;
@@ -13,7 +14,7 @@ import java.io.File;
 import java.math.BigDecimal;
 import java.util.*;
 
-import static com.cuchi.hickz.ItemCreator.createItem;
+import static com.cuchi.hickz.misc.ItemCreator.createItem;
 
 public class CaseLoader {
     private final Hashtable<String, Case> cases = new Hashtable<>();

@@ -1,5 +1,6 @@
 package com.cuchi.hickz;
 
+import com.cuchi.hickz.cases.Case;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
