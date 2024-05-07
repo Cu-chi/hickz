@@ -58,7 +58,7 @@ public class Case implements Listener {
     }
 
     // You can open the inventory with this
-    public void openInventory(HumanEntity ent) {
+    private void openInventory(HumanEntity ent) {
         ent.openInventory(caseInventory);
     }
 
